@@ -35,7 +35,7 @@ Tôi tự cung cấp trải nghiệm và ý chính, sau đó dùng AI để rà 
 
 ## 3. Reflection
 
-Khi nghe và so sánh các candidate, tôi nhận ra một vấn đề nghe hấp dẫn chưa chắc đã là vấn đề phù hợp nhất để dùng AI. Bài toán thẩm định dataset gần với trải nghiệm của học viên AI20k và dễ kiểm chứng hơn. Bài tra cứu quy chế có actor rõ nhưng FAQ hoặc search tốt hơn có thể đã giải quyết phần lớn nhu cầu. Ý tưởng lộ trình cá nhân hóa có impact lớn nhưng cần nhiều dữ liệu và quá rộng cho thời gian lab. Bài tổng hợp lịch trình được chọn vì workflow trước và sau dễ hình dung, đồng thời có thể tách rõ phần Rule, AI và con người.
+Khi nghe và so sánh các candidate, tôi nhận ra một vấn đề nghe hấp dẫn chưa chắc đã là vấn đề phù hợp nhất để dùng AI. Bài toán thẩm định dataset gần với trải nghiệm của học viên AI20k và dễ kiểm chứng hơn. Bài tra cứu quy chế có actor rõ nhưng FAQ hoặc search tốt hơn có thể đã giải quyết phần lớn nhu cầu. Ý tưởng lộ trình cá nhân hóa có impact lớn nhưng cần nhiều dữ liệu và quá rộng cho thời gian lab. Bài tìm quán ăn có tần suất cao nhưng impact thấp và khó tiếp cận dữ liệu Facebook. Bài tổng hợp lịch trình được chọn vì workflow trước và sau dễ hình dung, đồng thời có thể tách rõ phần Rule, AI và con người.
 
 Ý tưởng ban đầu của tôi là AI có thể duyệt qua tất cả cuộc trò chuyện để tìm thông tin lịch hẹn và lưu vào Calendar. Sau khi phân tích kỹ hơn, tôi thấy cách này quá rộng. Nó có thể đọc cả nội dung không liên quan, làm lộ thông tin khách hàng hoặc hiểu nhầm một câu trao đổi thành cuộc hẹn. Vì vậy, boundary hợp lý hơn là người dùng chủ động chuyển tiếp nội dung cần xử lý. AI chỉ trích xuất người, thời gian, địa điểm và mục đích; Rule kiểm tra xung đột; người dùng phải duyệt trước khi ghi lịch.
 

@@ -8,12 +8,13 @@
 |  2  |  Vũ Thành Dương | 2A202602007 |    Thành viên    |
 |  3  |  Lê Thành Nam   | 2A202601397 |    Nhóm trưởng   |
 |  4  |  Phạm Thế Trung | 2A202601299 |    Thành viên    |
+|  5  |  Ngô Phương Nam | 2A202601231 |    Thành viên    |
 
 ## 1. Group convergence
 
 ### Nhật ký hội tụ
 
-Bảng dưới tổng hợp bốn candidate chính được các thành viên đưa ra trong phần thảo luận nhóm.
+Bảng dưới tổng hợp năm candidate chính được các thành viên đưa ra trong phần thảo luận nhóm.
 
 | Người đưa ra | Candidate problem | Actor | Bottleneck | Cảm nhận nhanh |
 |---|---|---|---|---|
@@ -21,6 +22,7 @@ Bảng dưới tổng hợp bốn candidate chính được các thành viên đ
 | Lê Thành Nam | Tra cứu quy chế cho sinh viên năm nhất | Sinh viên; cố vấn và ban cán sự | Tài liệu phân tán; câu trả lời trong group bị trôi | Pain dễ hiểu, nhưng FAQ có thể đã đủ |
 | Vũ Thành Dương | Tổng hợp lịch trình đa nguồn | Chủ doanh nghiệp nhỏ hoặc quản lý không có trợ lý | Chuyển lịch hẹn từ nhiều kênh vào calendar và phát hiện xung đột muộn | Workflow và ranh giới người–máy rõ |
 | Phạm Thế Trung | Xây dựng lộ trình cá nhân hóa theo năng lực | Sinh viên cần chọn môn học hoặc định hướng phát triển | Thiếu cách nối năng lực hiện tại, mục tiêu và các bước học phù hợp | Impact tiềm năng lớn nhưng phạm vi và dữ liệu đầu vào rộng |
+| Ngô Phương Nam | Tìm quán ăn trên các nhóm Facebook | Sinh viên, người đi làm hoặc cư dân muốn tìm quán theo khu vực, món và mức giá | Phải mở nhiều group, đọc bài rời rạc và khó lọc thông tin | Tần suất cao nhưng impact thấp; khó tiếp cận dữ liệu Facebook |
 
 ### Cluster
 
@@ -30,6 +32,7 @@ Bảng dưới tổng hợp bốn candidate chính được các thành viên đ
 | Tra cứu thông tin | Quy chế sinh viên | Tìm câu trả lời trong nguồn dài, phân tán |
 | Điều phối công việc | Tổng hợp lịch trình | Chuyển thông tin giữa nhiều kênh và kiểm tra xung đột |
 | Cá nhân hóa và lập kế hoạch | Lộ trình theo năng lực | Đánh giá hiện trạng để đề xuất chuỗi bước phù hợp với từng người |
+| Khám phá và gợi ý địa điểm | Tìm quán ăn trên nhóm Facebook | Tổng hợp review rời rạc rồi lọc theo nhu cầu |
 
 ### Shortlist và chấm điểm
 
@@ -55,6 +58,7 @@ Bảng dưới tổng hợp bốn candidate chính được các thành viên đ
 - Thẩm định dataset dễ validate nhưng actor hẹp và có nguy cơ gộp hai pain: tìm dataset và kiểm định dataset.
 - Tra cứu quy chế có actor rõ nhưng FAQ, mục lục và search truyền thống có thể giải phần lớn câu hỏi; tính hiệu lực của tài liệu cũng chưa được kiểm tra.
 - Lộ trình cá nhân hóa có impact tiềm năng lớn nhưng quá rộng cho một buổi lab; cần dữ liệu năng lực, mục tiêu, chương trình học và tiêu chí đánh giá chất lượng lộ trình.
+- Tìm quán ăn xảy ra thường xuyên nhưng impact mỗi lần thấp; việc thu thập bài viết từ Facebook còn có rào cản quyền truy cập, quyền riêng tư và độ tin cậy của review.
 
 **Xử lý khác biệt ý kiến:** Nhóm dùng điểm số để mở thảo luận, sau đó ưu tiên candidate có workflow trước/sau và boundary rõ. Điểm số không tự quyết định kết quả.
 
@@ -64,7 +68,7 @@ Kết quả hiện có mới là tín hiệu từ thảo luận nội bộ; nhó
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Thảo luận nội bộ | 4 thành viên | Nhiều nguồn lịch làm tăng thao tác chuyển thông tin; phát hiện trùng muộn gây khó xử | Có thể yêu cầu mọi người dùng booking link, không cần AI | Thu hẹp vào cuộc hẹn vẫn đến qua tin nhắn/email |
+| Thảo luận nội bộ | 5 thành viên | Nhiều nguồn lịch làm tăng thao tác chuyển thông tin; phát hiện trùng muộn gây khó xử | Có thể yêu cầu mọi người dùng booking link, không cần AI | Thu hẹp vào cuộc hẹn vẫn đến qua tin nhắn/email |
 | Desk research | 4 nguồn online | Có sẵn booking page, chuyển email thành event và workflow kết nối Calendar | Nguồn online chứng minh giải pháp tồn tại, không chứng minh actor của nhóm có pain | Giữ research tách biệt với bằng chứng người dùng |
 | Phỏng vấn đúng actor | 0 | Chưa có | Chưa biết pain có đủ lớn không | Không dùng số ước lượng như dữ liệu thật |
 | Log lịch/tin nhắn | 0 mẫu | Chưa có | Chưa biết AI trích xuất đủ chính xác không | Đặt yêu cầu pilot trên dữ liệu đã ẩn thông tin nhạy cảm |
